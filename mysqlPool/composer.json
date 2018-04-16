@@ -1,0 +1,24 @@
+{
+    "name": "phalapi/swoole",
+    "description": "基于swoole的mysql连接池，专门用于PhalApi 2.x 开源接口框架。",
+    "keywords": ["swoole", "pool", "phalapi"],
+    "homepage": "http://www.phalapi.net",
+    "license" : "GPL-3.0+",
+    "authors": [
+        {
+            "name": "ctbsea",
+            "email": "chen1teng2bin3@126.com",
+            "homepage" : "",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Swoole\\MysqlPool\\": "src"
+        }
+    }
+
+}
