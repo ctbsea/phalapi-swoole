@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Swoole\\MysqlPool\\": "src"
+            "ctbsea\\phalapiSwoole\\": "src"
         }
     }
 

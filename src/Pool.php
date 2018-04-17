@@ -1,6 +1,6 @@
 <?php
 
-namespace swoole\mysqlPool;
+namespace ctbsea\phalapiSwoole;
 
 /**
  * 连接池的操作
